@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.3.64",
+    "date": "2026-10-28",
+    "changes": [
+      "Added weather + quotes"
+    ]
+  },
+  {
     "version": "v0.3.63",
     "date": "2026-10-16",
     "changes": [
