@@ -1,9 +1,20 @@
 [
   {
+    "version": "v0.3.65",
+    "date": "2026-10-28",
+    "changes": [
+      "Update build steps"
+    ]
+  },
+  {
     "version": "v0.3.64",
     "date": "2026-10-28",
     "changes": [
-      "Added weather + quotes"
+      "Added weather + quotes",
+      "Live Call Tracker: a call now also ends automatically if the customer drops off mid-call and GoInStore's 'Waiting for customer' screen reappears, instead of only ending via the post-call Submit/'Call Report' screen.",
+      "Fixed a floating-point rounding bug in Time Tracker's shift summary where an exactly-completed 8-hour shift could incorrectly show as 'Over by 0.00' in red instead of 'Remaining 0.00' in green.",
+      "Fixed the build script's dependency security report so a pip-audit crash (Windows cp1252 encoding issue) could no longer be silently misreported as 'No vulnerabilities found!'.",
+      "Updated vulnerable dependencies (certifi, setuptools, urllib3, Pillow) and removed unused ones (nltk, a stray leftover) to resolve all known vulnerabilities flagged by the dependency security scan."
     ]
   },
   {
