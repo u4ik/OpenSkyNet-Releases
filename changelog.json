@@ -1,5 +1,12 @@
 [
   {
+    "version": "v0.3.70",
+    "date": "2026-11-06",
+    "changes": [
+      "Added focus shift to parallel windows, Reworked login check"
+    ]
+  },
+  {
     "version": "v0.3.66",
     "date": "2026-10-28",
     "changes": [
